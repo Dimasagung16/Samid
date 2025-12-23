@@ -2,9 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import parfumImg from "@/public/parfum.jpg";
+import ddddImg from "@/public/dddd.jpg";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import { FaDesktop } from 'react-icons/fa';
 
 export const links = [
   {
@@ -35,73 +36,51 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Saya lulusan SMA",
+    location: "Lokasi Sekolah Berada Di Cianjur",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Disekolah saya pernah menjadi ketua eskul futsal,dan aktif dalam perlombaan sekolah atau kegiatan sekolah",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "After lulus",
+    location: "Pengalaman Kerja",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Saya pernah bekerja  menjadi barista selama 4 bulan dan sekarang saya bekerja dibidang cosmetic sebagai admin",
+    icon: React.createElement(FaDesktop),
+    date: "2022 - 2025",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Freelance",
+    location: "Vidiografer dan Fotografer",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      " Bekerjaan Freelance saya sebagi vidio atau juga fotografer,saya sudah mendalami ini sejak masih sekolah sering membuat vidio cinematic atau foto dan pernah membuat iklan dan lainnya ",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: " - Freelance",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Avicenna Parfum",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Avicenna adalah Sincere yang memiliki aroma fruity floral untuk wanita, Pure Black yang citrusy aromatic dan woody untuk pria, serta L'Homme yang memiliki aroma citrus dan woody dengan sentuhan vanila untuk pria. .",
+    tags: ["Yang wangi", "Wangi", "", "Dapat Memikat", "Wanita"],
+    imageUrl: parfumImg,
   },
   {
-    title: "rmtDev",
+    title: "Louis Vuitton",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Parfum ini memadukan aroma vanila manis dengan bunga-bungaan seperti orange blossom, mawar, dan magnolia, serta ada sentuhan rempah atau herbs yang khas dan aroma cokelat serta ambrette (musk mallow) di dasarnya. Keseluruhan aromanya terasa elegan, mewah, dan manis tapi tidak berlebihan",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: ddddImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Bidang olahraga",
+  "Vidiografer",
+  "Otomotif",
+  "Editor",
 ] as const;
